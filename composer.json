@@ -1,0 +1,59 @@
+{
+  "name": "ergebnis/json-normalize",
+  "description": "Provides a console command for normalizing JSON documents.",
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Andreas Möller",
+      "email": "am@localheinz.com"
+    }
+  ],
+  "homepage": "https://github.com/ergebnis/json-normalize",
+  "support": {
+    "issues": "https://github.com/ergebnis/json-normalize/issues",
+    "source": "https://github.com/ergebnis/json-normalize"
+  },
+  "require": {
+    "php": "^7.4 || ^8.0"
+  },
+  "require-dev": {
+    "ergebnis/composer-normalize": "^2.22.0",
+    "ergebnis/data-provider": "^1.0.0",
+    "ergebnis/license": "^1.1.0",
+    "ergebnis/php-cs-fixer-config": "^3.4.0",
+    "fakerphp/faker": "^1.17.0",
+    "infection/infection": "~0.25.5",
+    "phpunit/phpunit": "^9.5.11",
+    "psalm/plugin-phpunit": "~0.16.1",
+    "vimeo/psalm": "^4.16.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ergebnis\\Json\\Normalize\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Ergebnis\\Json\\Normalize\\Test\\": "test/"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "composer/package-versions-deprecated": true,
+      "ergebnis/composer-normalize": true,
+      "infection/extension-installer": true
+    },
+    "platform": {
+      "php": "7.4.16"
+    },
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "extra": {
+    "composer-normalize": {
+      "indent-size": 2,
+      "indent-style": "space"
+    }
+  }
+}
