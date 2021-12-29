@@ -15,7 +15,8 @@
     "source": "https://github.com/ergebnis/json-normalize"
   },
   "require": {
-    "php": "^7.4 || ^8.0"
+    "php": "^7.4 || ^8.0",
+    "ergebnis/json-normalizer": "^2.0.0"
   },
   "require-dev": {
     "ergebnis/composer-normalize": "^2.22.0",
