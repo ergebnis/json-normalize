@@ -18,6 +18,7 @@
     "php": "^7.4 || ^8.0",
     "ergebnis/json-normalizer": "^2.0.0",
     "ergebnis/json-printer": "^3.2.0",
+    "ergebnis/json-schema-validator": "^2.0.0",
     "localheinz/diff": "^1.1.1",
     "symfony/console": "^5.4.1 || ^6.0.2"
   },
