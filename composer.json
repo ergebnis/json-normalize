@@ -16,7 +16,8 @@
   },
   "require": {
     "php": "^7.4 || ^8.0",
-    "ergebnis/json-normalizer": "^2.0.0"
+    "ergebnis/json-normalizer": "^2.0.0",
+    "symfony/console": "^5.4.1 || ^6.0.2"
   },
   "require-dev": {
     "ergebnis/composer-normalize": "^2.22.0",
