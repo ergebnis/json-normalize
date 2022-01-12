@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5625af43884c453a6142f2764b25499d",
+    "content-hash": "6221b3fa8327c1b4361de7db5b09c13f",
     "packages": [
         {
             "name": "ergebnis/json-normalizer",
@@ -2618,16 +2618,16 @@
         },
         {
             "name": "infection/infection",
-            "version": "0.26.0",
+            "version": "0.26.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/infection/infection.git",
-                "reference": "e346a2ff4ebe277f3f4e8cc295c033dcab13e7f0"
+                "reference": "1e584ea134a1bd3065c1305e14fe3382b30eb2a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/infection/infection/zipball/e346a2ff4ebe277f3f4e8cc295c033dcab13e7f0",
-                "reference": "e346a2ff4ebe277f3f4e8cc295c033dcab13e7f0",
+                "url": "https://api.github.com/repos/infection/infection/zipball/1e584ea134a1bd3065c1305e14fe3382b30eb2a9",
+                "reference": "1e584ea134a1bd3065c1305e14fe3382b30eb2a9",
                 "shasum": ""
             },
             "require": {
@@ -2728,7 +2728,7 @@
             ],
             "support": {
                 "issues": "https://github.com/infection/infection/issues",
-                "source": "https://github.com/infection/infection/tree/0.26.0"
+                "source": "https://github.com/infection/infection/tree/0.26.1"
             },
             "funding": [
                 {
@@ -2740,7 +2740,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2022-01-10T10:25:48+00:00"
+            "time": "2022-01-11T20:49:25+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -6182,5 +6182,5 @@
     "platform-overrides": {
         "php": "7.4.16"
     },
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.2.0"
 }
