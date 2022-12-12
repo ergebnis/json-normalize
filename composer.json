@@ -15,7 +15,7 @@
     "source": "https://github.com/ergebnis/json-normalize"
   },
   "require": {
-    "php": "^8.0",
+    "php": "~8.0.0 || ~8.1.0 || ~8.2.0",
     "ergebnis/json-normalizer": "^2.2.0",
     "ergebnis/json-printer": "^3.2.0",
     "ergebnis/json-schema-validator": "^2.0.0",
