@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "851144530af66a3850d1efda0a146cb9",
+    "content-hash": "471a94bafa0a9e49e37dc7cccf1123fa",
     "packages": [
         {
             "name": "ergebnis/json-normalizer",
@@ -2578,16 +2578,16 @@
         },
         {
             "name": "infection/infection",
-            "version": "0.26.17",
+            "version": "0.26.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/infection/infection.git",
-                "reference": "4420d3c25eb985817336a44eb3bd87fc01f7ea4c"
+                "reference": "ec533cd367eef0e52ee7b3435feabf9b61eeb7d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/infection/infection/zipball/4420d3c25eb985817336a44eb3bd87fc01f7ea4c",
-                "reference": "4420d3c25eb985817336a44eb3bd87fc01f7ea4c",
+                "url": "https://api.github.com/repos/infection/infection/zipball/ec533cd367eef0e52ee7b3435feabf9b61eeb7d5",
+                "reference": "ec533cd367eef0e52ee7b3435feabf9b61eeb7d5",
                 "shasum": ""
             },
             "require": {
@@ -2690,7 +2690,7 @@
             ],
             "support": {
                 "issues": "https://github.com/infection/infection/issues",
-                "source": "https://github.com/infection/infection/tree/0.26.17"
+                "source": "https://github.com/infection/infection/tree/0.26.18"
             },
             "funding": [
                 {
@@ -2702,7 +2702,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2023-01-19T17:26:32+00:00"
+            "time": "2023-01-20T23:10:11+00:00"
         },
         {
             "name": "myclabs/deep-copy",
