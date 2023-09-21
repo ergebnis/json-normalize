@@ -13,7 +13,8 @@
   "homepage": "https://github.com/ergebnis/json-normalize",
   "support": {
     "issues": "https://github.com/ergebnis/json-normalize/issues",
-    "source": "https://github.com/ergebnis/json-normalize"
+    "source": "https://github.com/ergebnis/json-normalize",
+    "security": "https://github.com/ergebnis/json-normalize/blob/main/.github/SECURITY.md"
   },
   "require": {
     "php": "~8.1.0 || ~8.2.0",
