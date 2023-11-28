@@ -16,11 +16,7 @@ namespace Ergebnis\Json\Normalize\Test\Unit;
 use Ergebnis\Json\Normalize\Version;
 use PHPUnit\Framework;
 
-/**
- * @internal
- *
- * @covers \Ergebnis\Json\Normalize\Version
- */
+#[Framework\Attributes\CoversClass(Version::class)]
 final class VersionTest extends Framework\TestCase
 {
     public function testLongReturnsVersion(): void

@@ -1,4 +1,4 @@
-# https://github.com/probot/settings
+# https://github.com/repository-settings/app
 
 branches:
   - name: "main"
@@ -79,11 +79,13 @@ repository:
   description: ":page_with_curl: Provides a console command for normalizing JSON documents."
   enable_automated_security_fixes: true
   enable_vulnerability_alerts: true
+  has_discussions: false
   has_downloads: true
   has_issues: true
   has_pages: false
   has_projects: false
   has_wiki: false
+  is_template: false
   name: "json-normalize"
   private: false
 
