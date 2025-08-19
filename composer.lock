@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "123e996d3170d8d2c53c2647773b6ae6",
+    "content-hash": "7fb27aee47445784b43801fe44025ebd",
     "packages": [
         {
             "name": "ergebnis/json-normalizer",
@@ -482,16 +482,16 @@
         },
         {
             "name": "symfony/deprecation-contracts",
-            "version": "v3.5.1",
+            "version": "v3.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/deprecation-contracts.git",
-                "reference": "74c71c939a79f7d5bf3c1ce9f5ea37ba0114c6f6"
+                "reference": "63afe740e99a13ba87ec199bb07bbdee937a5b62"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/74c71c939a79f7d5bf3c1ce9f5ea37ba0114c6f6",
-                "reference": "74c71c939a79f7d5bf3c1ce9f5ea37ba0114c6f6",
+                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/63afe740e99a13ba87ec199bb07bbdee937a5b62",
+                "reference": "63afe740e99a13ba87ec199bb07bbdee937a5b62",
                 "shasum": ""
             },
             "require": {
@@ -504,7 +504,7 @@
                     "name": "symfony/contracts"
                 },
                 "branch-alias": {
-                    "dev-main": "3.5-dev"
+                    "dev-main": "3.6-dev"
                 }
             },
             "autoload": {
@@ -529,7 +529,7 @@
             "description": "A generic function and convention to trigger deprecation notices",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.5.1"
+                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.6.0"
             },
             "funding": [
                 {
@@ -545,7 +545,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-09-25T14:20:29+00:00"
+            "time": "2024-09-25T14:21:43+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -2292,27 +2292,27 @@
         },
         {
             "name": "ergebnis/data-provider",
-            "version": "3.4.0",
+            "version": "3.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ergebnis/data-provider.git",
-                "reference": "a902a3d71c619bca787a9350ec313c5b34fb14c0"
+                "reference": "68c074d4fe0e26821ca83014c354dd85ae473a99"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ergebnis/data-provider/zipball/a902a3d71c619bca787a9350ec313c5b34fb14c0",
-                "reference": "a902a3d71c619bca787a9350ec313c5b34fb14c0",
+                "url": "https://api.github.com/repos/ergebnis/data-provider/zipball/68c074d4fe0e26821ca83014c354dd85ae473a99",
+                "reference": "68c074d4fe0e26821ca83014c354dd85ae473a99",
                 "shasum": ""
             },
             "require": {
                 "fakerphp/faker": "^1.21.0",
-                "php": "~7.4.0 || ~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0"
+                "php": "~7.4.0 || ~8.0.0 || ~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0 || ~8.5.0"
             },
             "require-dev": {
-                "ergebnis/composer-normalize": "^2.44.0",
+                "ergebnis/composer-normalize": "^2.47.0",
                 "ergebnis/license": "^2.6.0",
-                "ergebnis/php-cs-fixer-config": "^6.37.0",
-                "ergebnis/phpunit-slow-test-detector": "^2.16.1",
+                "ergebnis/php-cs-fixer-config": "^6.52.0",
+                "ergebnis/phpunit-slow-test-detector": "^2.19.1",
                 "infection/infection": "~0.26.6",
                 "phpstan/extension-installer": "^1.4.3",
                 "phpstan/phpstan": "^1.12.10",
@@ -2358,7 +2358,7 @@
                 "issues": "https://github.com/ergebnis/data-provider/issues",
                 "source": "https://github.com/ergebnis/data-provider"
             },
-            "time": "2024-11-18T06:55:13+00:00"
+            "time": "2025-08-19T10:57:21+00:00"
         },
         {
             "name": "ergebnis/license",
