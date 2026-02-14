@@ -403,8 +403,17 @@ jobs:
         with:
           dependencies: "${{ matrix.dependencies }}"
 
-      - name: "Run vimeo/psalm"
-        run: "vendor/bin/psalm --config=psalm.xml --output-format=github --shepherd --show-info=false --stats --threads=4"
+      - name: "Cache cache directory for phpstan/phpstan"
+        uses: "actions/cache@v5.0.3"
+        with:
+          path: ".build/phpstan"
+          key: "php-${{ matrix.php-version }}-phpstan-${{ github.ref_name }}"
+          restore-keys: |
+            php-${{ matrix.php-version }}-phpstan-main
+            php-${{ matrix.php-version }}-phpstan-
+
+      - name: "Run phpstan/phpstan"
+        run: "vendor/bin/phpstan --configuration=phpstan.neon --memory-limit=-1"
 
   tests:
     name: "Tests"

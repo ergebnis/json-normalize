@@ -6,7 +6,6 @@
 [![Renew](https://github.com/ergebnis/json-normalize/workflows/Renew/badge.svg)](https://github.com/ergebnis/json-normalize/actions)
 
 [![Code Coverage](https://codecov.io/gh/ergebnis/json-normalize/branch/main/graph/badge.svg)](https://codecov.io/gh/ergebnis/json-normalize)
-[![Type Coverage](https://shepherd.dev/github/ergebnis/json-normalize/coverage.svg)](https://shepherd.dev/github/ergebnis/json-normalize)
 
 [![Latest Stable Version](https://poser.pugx.org/ergebnis/json-normalize/v/stable)](https://packagist.org/packages/ergebnis/json-normalize)
 [![Total Downloads](https://poser.pugx.org/ergebnis/json-normalize/downloads)](https://packagist.org/packages/ergebnis/json-normalize)
