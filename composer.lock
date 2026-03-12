@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "573ed3579738a27d70efc1641b5b4d55",
+    "content-hash": "728fc460f6416731f084a62e34a8265f",
     "packages": [
         {
             "name": "ergebnis/json-normalizer",
@@ -1878,16 +1878,16 @@
         },
         {
             "name": "ergebnis/rector-rules",
-            "version": "1.11.0",
+            "version": "1.12.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ergebnis/rector-rules.git",
-                "reference": "1741c2ddc66dcae219b21e4d3f0e5f847e55dcc0"
+                "reference": "f883124af206ce5364173aeda0c67b037d73539a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ergebnis/rector-rules/zipball/1741c2ddc66dcae219b21e4d3f0e5f847e55dcc0",
-                "reference": "1741c2ddc66dcae219b21e4d3f0e5f847e55dcc0",
+                "url": "https://api.github.com/repos/ergebnis/rector-rules/zipball/f883124af206ce5364173aeda0c67b037d73539a",
+                "reference": "f883124af206ce5364173aeda0c67b037d73539a",
                 "shasum": ""
             },
             "require": {
@@ -1938,7 +1938,7 @@
                 "security": "https://github.com/ergebnis/rector-rules/blob/main/.github/SECURITY.md",
                 "source": "https://github.com/ergebnis/rector-rules"
             },
-            "time": "2026-03-11T17:05:16+00:00"
+            "time": "2026-03-12T17:07:05+00:00"
         },
         {
             "name": "erickskrauch/php-cs-fixer-custom-fixers",
