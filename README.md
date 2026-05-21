@@ -50,6 +50,7 @@ This project currently supports the following PHP versions:
 - [PHP 8.1](https://www.php.net/releases/#8.1.0) (has reached its end of life on December 31, 2025)
 - [PHP 8.2](https://www.php.net/releases/#8.2.0)
 - [PHP 8.3](https://www.php.net/releases/#8.3.0)
+- [PHP 8.4](https://www.php.net/releases/#8.4.0)
 
 The maintainers of this project add support for a PHP version following its initial release and _may_ drop support for a PHP version when it has reached its [end of life](https://www.php.net/supported-versions.php).
 
