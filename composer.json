@@ -33,7 +33,6 @@
     "ergebnis/phpunit-slow-test-detector": "^2.24.0",
     "ergebnis/rector-rules": "^1.18.3",
     "fakerphp/faker": "^1.24.1",
-    "infection/infection": "~0.27.11",
     "phpstan/extension-installer": "^1.4.3",
     "phpstan/phpstan": "^2.2.2",
     "phpstan/phpstan-deprecation-rules": "^2.0.5",
@@ -56,7 +55,6 @@
     "allow-plugins": {
       "composer/package-versions-deprecated": true,
       "ergebnis/composer-normalize": true,
-      "infection/extension-installer": true,
       "phpstan/extension-installer": true
     },
     "audit": {
