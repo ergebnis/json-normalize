@@ -47,6 +47,7 @@ You can support the maintenance of this project by [sponsoring @ergebnis](https:
 
 This project currently supports the following PHP versions:
 
+- [PHP 7.4](https://www.php.net/releases/#7.4.0) (has reached its end of life on November 28, 2022)
 - [PHP 8.0](https://www.php.net/releases/#8.0.0) (has reached its end of life on November 26, 2023)
 - [PHP 8.1](https://www.php.net/releases/#8.1.0) (has reached its end of life on December 31, 2025)
 - [PHP 8.2](https://www.php.net/releases/#8.2.0)

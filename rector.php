@@ -26,7 +26,7 @@ return static function (Config\RectorConfig $rectorConfig): void {
         __DIR__ . '/rector.php',
     ]);
 
-    $rectorConfig->phpVersion(ValueObject\PhpVersion::PHP_80);
+    $rectorConfig->phpVersion(ValueObject\PhpVersion::PHP_74);
 
     $rectorConfig->rules([
         Rector\Rules\Faker\GeneratorPropertyFetchToMethodCallRector::class,
