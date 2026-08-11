@@ -20,6 +20,7 @@ return static function (Config\RectorConfig $rectorConfig): void {
     $rectorConfig->cacheDirectory(__DIR__ . '/.build/rector/');
 
     $rectorConfig->paths([
+        __DIR__ . '/bin/json-normalize',
         __DIR__ . '/src/',
         __DIR__ . '/test/',
         __DIR__ . '/.php-cs-fixer.php',
@@ -36,6 +37,7 @@ return static function (Config\RectorConfig $rectorConfig): void {
         'discoverNamespacePrefixes' => true,
         'parentNamespacePrefixes' => [
             'Ergebnis\Json\Normalize',
+            'Symfony\Component',
         ],
     ]);
 
