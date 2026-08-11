@@ -2,11 +2,18 @@ includes:
 	- phpstan-baseline.neon
 
 parameters:
+	ergebnis:
+		noExtends:
+			classesAllowedToBeExtended:
+				- Symfony\Component\Console\Application
+				- Symfony\Component\Console\Command\Command
+
 	inferPrivatePropertyTypeFromConstructor: true
 
 	level: max
 
 	paths:
+		- bin/json-normalize
 		- src/
 		- test/
 		- .php-cs-fixer.php
