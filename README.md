@@ -23,7 +23,77 @@ composer require ergebnis/json-normalize
 
 ## Usage
 
-💡 This is a great place for showing a few usage examples!
+This project provides a `json-normalize` binary. When you have installed this project as a dependency, you can find it in `vendor/bin/json-normalize`.
+
+### Normalizing a JSON file
+
+Run
+
+```sh
+vendor/bin/json-normalize normalize composer.json
+```
+
+to normalize `composer.json`.
+
+### Showing a diff
+
+Run
+
+```sh
+vendor/bin/json-normalize normalize --diff composer.json
+```
+
+to show the difference between the original and the normalized JSON file.
+
+### Performing a dry run
+
+Run
+
+```sh
+vendor/bin/json-normalize normalize --diff --dry-run composer.json
+```
+
+to show the difference between the original and the normalized JSON file without modifying it.
+
+The command exits with a non-zero exit code when the JSON file is not normalized, so you can use it to verify that JSON files are normalized on continuous integration.
+
+### Normalizing according to a JSON schema
+
+Without a JSON schema, the command normalizes formatting only: it applies a consistent indent, consistent escaping, and a final new-line. Since it detects the indent from the JSON file itself, a JSON file that is already formatted consistently is reported as already normalized.
+
+To also sort properties, use a JSON schema. Run
+
+```sh
+vendor/bin/json-normalize normalize --schema=schema.json composer.json
+```
+
+to normalize `composer.json` according to the JSON schema in `schema.json`. The `--schema` option accepts a URI as well as a path, and resolves a relative path from the current working directory.
+
+When you do not use the `--schema` option, the command uses the `$schema` property of the JSON file, if present, and resolves a relative path from the directory of the JSON file. Run
+
+```sh
+vendor/bin/json-normalize normalize --no-schema composer.json
+```
+
+to ignore the `$schema` property and normalize formatting only.
+
+The command fails when it can not read the JSON schema, and when the JSON file is not valid according to the JSON schema. It never silently normalizes less than you asked for, so you can rely on `--dry-run` on continuous integration.
+
+⚠️ When the JSON schema is a remote URI, the command fetches it on every run, and fails when it can not reach it.
+
+### Specifying an indent
+
+Run
+
+```sh
+vendor/bin/json-normalize normalize --indent-size=2 --indent-style=space composer.json
+```
+
+to normalize `composer.json` with an indent of two spaces.
+
+The `--indent-size` option accepts an integer greater than `0`, and the `--indent-style` option accepts one of `space` and `tab`. You need to use both options together.
+
+When you do not specify an indent, the command detects the indent from the JSON file.
 
 ## Changelog
 

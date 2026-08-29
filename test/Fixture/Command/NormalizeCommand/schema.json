@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "apple": {
+      "type": "integer"
+    },
+    "banana": {
+      "type": "integer"
+    },
+    "zebra": {
+      "type": "integer"
+    }
+  },
+  "type": "object"
+}

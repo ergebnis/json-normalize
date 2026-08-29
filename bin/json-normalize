@@ -1,0 +1,54 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types=1);
+
+/**
+ * Copyright (c) 2021-2026 Andreas Möller
+ *
+ * For the full copyright and license information, please view
+ * the LICENSE.md file that was distributed with this source code.
+ *
+ * @see https://github.com/ergebnis/json-normalize
+ */
+
+namespace Ergebnis\Json\Normalize;
+
+(static function (): void {
+    $autoloadPaths = [
+        // Installed as a dependency, e.g. vendor/ergebnis/json-normalize/bin/json-normalize
+        __DIR__ . '/../../../autoload.php',
+        // Installed standalone, e.g. bin/json-normalize
+        __DIR__ . '/../vendor/autoload.php',
+    ];
+
+    // Composer 2.2 and greater provide the path to the autoloader in the binary proxy it generates.
+    if (
+        \array_key_exists('_composer_autoload_path', $GLOBALS)
+        && \is_string($GLOBALS['_composer_autoload_path'])
+    ) {
+        \array_unshift(
+            $autoloadPaths,
+            $GLOBALS['_composer_autoload_path'],
+        );
+    }
+
+    foreach ($autoloadPaths as $autoloadPath) {
+        if (!\is_file($autoloadPath)) {
+            continue;
+        }
+
+        require_once $autoloadPath;
+
+        return;
+    }
+
+    \fwrite(
+        \STDERR,
+        'Unable to find the composer autoloader. Did you forget to run composer install?' . \PHP_EOL,
+    );
+
+    exit(1);
+})();
+
+exit((new Application())->run());

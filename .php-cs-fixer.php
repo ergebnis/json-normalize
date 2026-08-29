@@ -40,7 +40,8 @@ $finder = Finder::create()
         '.note/',
     ])
     ->ignoreDotFiles(false)
-    ->in(__DIR__);
+    ->in(__DIR__)
+    ->name('json-normalize');
 
 $config = PhpCsFixer\Config\Factory::fromRuleSet($ruleSet);
 
