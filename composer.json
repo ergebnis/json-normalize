@@ -39,7 +39,7 @@
     "phpstan/phpstan-phpunit": "^2.0.18",
     "phpstan/phpstan-strict-rules": "^2.0.12",
     "phpunit/phpunit": "^9.6",
-    "rector/rector": "^2.6.6"
+    "rector/rector": "^2.6.7"
   },
   "autoload": {
     "psr-4": {
