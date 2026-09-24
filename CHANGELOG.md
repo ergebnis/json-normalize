@@ -8,4 +8,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 For a full diff see [`8db0412...main`][8db0412...main].
 
+### Changed
+
+- Allowed installation on PHP 8.6 ([#767]), by [@localheinz]
+
 [8db0412...main]: https://github.com/ergebnis/json-normalize/compare/8db0412...main
+
+[#767]: https://github.com/ergebnis/json-normalize/pull/767
+
+[@localheinz]: https://github.com/localheinz
