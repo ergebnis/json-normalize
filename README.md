@@ -9,7 +9,7 @@
 
 [![Latest Stable Version](https://poser.pugx.org/ergebnis/json-normalize/v/stable)](https://packagist.org/packages/ergebnis/json-normalize)
 [![Total Downloads](https://poser.pugx.org/ergebnis/json-normalize/downloads)](https://packagist.org/packages/ergebnis/json-normalize)
-[![Monthly Downloads](http://poser.pugx.org/ergebnis/json-normalize/d/monthly)](https://packagist.org/packages/ergebnis/json-normalize)
+[![Monthly Downloads](https://poser.pugx.org/ergebnis/json-normalize/d/monthly)](https://packagist.org/packages/ergebnis/json-normalize)
 
 This project provides a [`composer`](https://getcomposer.org) package with a console command for normalizing JSON documents, building on top of [`ergebnis/json-normalizer`](https://github.com/ergebnis/json-normalizer).
 
