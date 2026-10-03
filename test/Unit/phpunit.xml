@@ -16,7 +16,7 @@
     stopOnIncomplete="false"
     stopOnSkipped="false"
 >
-    <coverage cacheDirectory="../../.build/phpunit/unit/code-coverage" processUncoveredFiles="true">
+    <coverage processUncoveredFiles="true">
         <include>
             <directory suffix=".php">../../src/</directory>
         </include>
