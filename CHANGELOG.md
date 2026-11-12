@@ -12,8 +12,13 @@ For a full diff see [`8db0412...main`][8db0412...main].
 
 - Allowed installation on PHP 8.6 ([#767]), by [@localheinz]
 
+### Removed
+
+- Removed dependency on `localheinz/diff` ([#818]), by [@localheinz]
+
 [8db0412...main]: https://github.com/ergebnis/json-normalize/compare/8db0412...main
 
 [#767]: https://github.com/ergebnis/json-normalize/pull/767
+[#818]: https://github.com/ergebnis/json-normalize/pull/818
 
 [@localheinz]: https://github.com/localheinz
