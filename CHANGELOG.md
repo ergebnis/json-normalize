@@ -15,6 +15,7 @@ For a full diff see [`8db0412...main`][8db0412...main].
 ### Changed
 
 - Allowed installation on PHP 8.6 ([#767]), by [@localheinz]
+- Allowed installation on PHP 8.7 ([#824]), by [@localheinz]
 
 ### Removed
 
@@ -25,5 +26,6 @@ For a full diff see [`8db0412...main`][8db0412...main].
 [#767]: https://github.com/ergebnis/json-normalize/pull/767
 [#817]: https://github.com/ergebnis/json-normalize/pull/817
 [#818]: https://github.com/ergebnis/json-normalize/pull/818
+[#824]: https://github.com/ergebnis/json-normalize/pull/824
 
 [@localheinz]: https://github.com/localheinz
