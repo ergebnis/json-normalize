@@ -13,7 +13,7 @@ declare(strict_types=1);
 
 namespace Ergebnis\Json\Normalize\Test\Unit;
 
-use Ergebnis\Json\Normalize\Version;
+use Ergebnis\Json\Normalize;
 use PHPUnit\Framework;
 
 /**
@@ -25,6 +25,6 @@ final class VersionTest extends Framework\TestCase
     {
         $expected = '<info>ergebnis/json-normalize</info> by <info>Andreas Möller</info> and contributors';
 
-        self::assertSame($expected, Version::long());
+        self::assertSame($expected, Normalize\Version::long());
     }
 }
